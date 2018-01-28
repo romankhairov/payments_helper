@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator of Daily Budget</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+
+</head>
+
+
+<body>
+  <div class="cover">
+
+    <!-- Main panel -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header box">
+        <h1>Daily Budget Calculator</h1>
+      </header>
+      <!-- Header End-->
+
+      <!-- Input Block -->
+      <aside class="input box">
+        <p>Input</p>
+
+
+        <div id="wrapper">
+        <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+        <tr>
+        <th>Source</th>
+        <th>Info</th>
+        <th>Amount</th>
+        </tr>
+
+      
+        <tr>
+        <td><input type="text" id="new_source"></td>
+        <td><input type="text" id="new_info"></td>
+        <td><input type="number" id="new_amount"></td>
+        <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+        </tr>
+
+        </table>
+        </div>
+
+
+
+        <!-- Input Block End-->
+
+      </aside>
+      <!-- Input Block End -->
+
+      <!-- Output Block -->
+      <main class="output box">Output</main>
+      <!-- Output Block End -->
+
+      <!-- Statistics  -->
+      <aside class="statistics box">Statistics</aside>
+      <!-- Statistics End -->
+
+      <!-- Footer -->
+      <footer class="footer box">Footer</footer>
+      <!-- Footer End-->
+
+    </div>
+    <!-- Main panel End-->
+
+  </div>
+
+
+  <script src="resources/js/app.js"></script>
+  <script src="resources/js/app.js"></script>
+</body>
+
+</html>
